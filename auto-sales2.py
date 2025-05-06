@@ -11,6 +11,10 @@ st.title("🚗 汽車銷售進階圖解式分析報告 2")
 st.markdown("""
 - **設計: Aries Yeh V1.0**
 """)
+st.markdown(
+    '<a href="https://auto-sales2-cb6fevkyg2ou5t9fd53sov.streamlit.app/" style="font-size:32px;">請點擊這裡👉🏻演示線上🚗 汽車銷售進階圖解式分析報告 2</a>',
+    unsafe_allow_html=True
+)
 
 # 資料載入與預處理
 @st.cache_data
