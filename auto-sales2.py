@@ -16,6 +16,11 @@ st.markdown(
     unsafe_allow_html=True
 )
 
+st.markdown("""
+這個互動式儀表板協助洞察汽車銷售趨勢、產品表現、顧客行為、市場分布與行銷效果，作為商業決策的依據。
+---
+""")
+
 # 資料載入與預處理
 @st.cache_data
 def load_data():
